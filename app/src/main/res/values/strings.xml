@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">EmulatorMega-Snes</string>
+
+    <string name="Copyright">Copyright 2021 - DroidHits / SEGA GENESIS</string>
+    <string name="app_description">Sega Megadrive/Genesis Emulator</string>
+    <string name="app_version">version 1.0</string>
+    <string name="buttonExit">Exit</string>
+    <string name="buttonOk">OK</string>
+    <string name="buttonRetry">Retry</string>
+    <string name="buttonSubmit">Submit</string>
+    <string name="fileChooseCurrentDirectory">Current Dir</string>
+    <string name="fileChooseFileClicked">File Clicked</string>
+    <string name="fileChooseFileSize">File Size</string>
+    <string name="fileChooseFolder">Directory</string>
+    <string name="fileChooseNoRomSelected">No ROM selected!</string>
+    <string name="fileChooseParentDirectory">Parent Directory</string>
+    <string name="fileChooseSelected">Selected directory</string>
+
+    <!-- // Ads - setor -->
+    <string name="firebase_database_url" />
+    <string name="gcm_defaultSenderId" />
+    <string name="google_api_key" />
+    <string name="google_app_id" />
+    <string name="google_crash_reporting_api_key" />
+    <string name="google_storage_bucket" />
+
+    <string name="helpAnswer1">
+        For emulators, games are called \'ROMs\'. AndroGens can load Genesis/MegaDrive ROMs.
+    </string>
+    <string name="helpAnswer2">
+        Unfortunately, for legal reasons, supplying such ROMs with the emulator would make
+        the app fall under copyright infringement.
+    </string>
+    <string name="helpAnswer3">
+        Several sites on the web supply the ROMs, such as \'coolrom.com\', \'freeroms.com\' or \'emuparadise.me\', to name a few of those websites.</string>
+    <string name="helpAnswer4part1">
+        In the USA, getting a ROM may be legal only if you own the original physical
+        cartridge of the game.
+    </string>
+    <string name="helpAnswer4part2">
+        In other countries, getting ROMs from the web will mostly not be legal.
+    </string>
+    <string name="helpAnswer4part3">
+        ROMs are subject to copyright laws. Downloading such ROMs may expose you to legal
+        pursuits in your country.
+    </string>
+    <string name="helpAnswer4part4">
+        SegaGeneis can not be held responsible if you download illegal ROMs from the web.
+    </string>
+    <string name="helpAnswer5part1">
+        The ROM you got will be located on your device, most probably in
+        the \'Downloads\' folder.
+    </string>
+    <string name="helpAnswer5part2">
+        Use the emulator\'s file chooser (\'Load ROM\' button) to locate it in
+        that folder and load it.
+    </string>
+    <string name="helpAnswer6part1">
+        AndroGens handles ROMs with the following extensions: .md, .bin, .gen .
+    </string>
+    <string name="helpAnswer6part2">
+        AndroGens\'s file chooser is also able to navigate through .zip archives and
+        load ROMs from them.
+    </string>
+    <string name="helpAnswer7part1">
+        In the settings, you\'ll find an option named \'Audio Stretch Percent\'.
+        Try to increase it.
+    </string>
+    <string name="helpAnswer7part2">
+        While it will certainly reduce sound crackles, it will also slow down the sound.
+    </string>
+    <string name="helpAnswer7part3">
+        Try to find the best fit for this option for each ROM you play.
+    </string>
+    <string name="helpBack">Back</string>
+    <string name="helpQuestion1">What about games?</string>
+    <string name="helpQuestion2">Why aren\'t ROMs supplied with the emulator?</string>
+    <string name="helpQuestion3">Where can I get those ROMs?</string>
+    <string name="helpQuestion4">Is downloading ROMs from the web legal?</string>
+    <string name="helpQuestion5">
+        OK then, I got a ROM legally, how to load it in the emulator?
+    </string>
+    <string name="helpQuestion6">What kind of ROMs does this emulator support?</string>
+    <string name="helpQuestion7">I get sound crackles, how to fix that?</string>
+    <string name="helpTitle">AndroGens help</string>
+    <string name="menuActions">Actions</string>
+    <string name="menuHelp">Help</string>
+    <string name="menuHide">Hide Bar</string>
+    <string name="menuLoadRom">Load ROM</string>
+    <string name="menuLoadState">Load state</string>
+    <string name="menuResetGame">Reset game</string>
+    <string name="menuResume">Resume</string>
+    <string name="menuResumeNoRomLoaded">No ROM loaded…</string>
+    <string name="menuSaveState">Save state</string>
+    <string name="menuSelectState">Select state</string>
+    <string name="menuSettings">Settings</string>
+    <string name="menuState0">State 0</string>
+    <string name="menuState1">State 1</string>
+    <string name="menuState10">Auto</string>
+    <string name="menuState2">State 2</string>
+    <string name="menuState3">State 3</string>
+    <string name="menuState4">State 4</string>
+    <string name="menuState5">State 5</string>
+    <string name="menuState6">State 6</string>
+    <string name="menuState7">State 7</string>
+    <string name="menuState8">State 8</string>
+    <string name="menuState9">State 9</string>
+    <string name="messageExternalStorageSummary">
+        External Storage not mounted, are you in disk mode?
+    </string>
+    <string name="messageExternalStorageTitle">Error</string>
+    <string name="package_name">com.games.sega.genesis</string>
+    <string name="settingAudioStretch">Audio Stretch Percent</string>
+    <string name="settingAutosave">Autosave/Autoload</string>
+    <string name="settingAutosaveSummary">Uses state save to prevent loss of game</string>
+    <string name="settingCategoryAudio">Audio</string>
+    <string name="settingCategoryDirectories">Directories</string>
+    <string name="settingCategoryEmulation">Emulation</string>
+    <string name="settingCategoryGraphics">Graphics</string>
+    <string name="settingCategoryInput">Input</string>
+    <string name="settingConfigureKeyInput">Configure Key Input</string>
+    <string name="settingConfigureKeyInputLine">Key: %1$s | Code: %2$d</string>
+    <string name="settingConfigureKeyInputSummary">Bind keyboard keys to emulator input</string>
+    <string name="settingConfigureTouchAlert0">Drag controls around to move them</string>
+    <string name="settingConfigureTouchAlert1">Touch and hold to enter resize mode</string>
+    <string name="settingConfigureTouchAlert2">In resize mode drag edges to resize</string>
+    <string name="settingConfigureTouchAlert3">Saves when you leave this screen</string>
+    <string name="settingConfigureTouchAlertTitle">Input Config</string>
+    <string name="settingConfigureTouchInput">Configure Touch Input</string>
+    <string name="settingConfigureTouchInputSummary">Modify touch input location/size</string>
+    <string name="settingConfigureTouchLeaveResizeMode">
+        Press device\'s \'Back\' button or touch a different control to leave resize mode
+    </string>
+    <string name="settingEnableAudio">Enable Audio</string>
+    <string name="settingFrameskip">Frameskip</string>
+    <string name="settingGameGenieCantAutoload">
+        Cannot auto load with Game Genie enabled, will still auto save</string>
+    <string name="settingGameGenieNotFoundSummary">
+        Game Genie not found, place Game Genie image at
+    </string>
+    <string name="settingGameGenieNotFoundTitle">Game Genie Not Found</string>
+    <string name="settingHardwareFiltering">Hardware Filtering</string>
+    <string name="settingHardwareFilteringLinearInterpolation">Linear Interpolation</string>
+    <string name="settingHardwareFilteringPointFiltering">Point Filtering</string>
+    <string name="settingMaintainAspectRatio">Maintain Aspect Ratio</string>
+    <string name="settingResetInput">Reset Input</string>
+    <string name="settingResetInputSummary">Reset to default</string>
+    <string name="settingSelectRomDir">Select ROM Dir</string>
+    <string name="settingSelectRomDirSummary">ROM directory:</string>
+    <string name="settingSelectSramDir">Select sram Dir</string>
+    <string name="settingSelectSramDirSummary">Sram directory:</string>
+    <string name="settingSelectStateDir">Select states Dir</string>
+    <string name="settingSelectStateDirSummary">States directory:</string>
+    <string name="settingSelectTempDir">Select temp Dir</string>
+    <string name="settingSelectTempDirSummary">Temp directory:</string>
+    <string name="settingSetButtonNumber">Pad type</string>
+    <string name="settingSetButtonNumber3ButtonPad">3-Button Pad</string>
+    <string name="settingSetButtonNumber6ButtonPad">6-Button Pad</string>
+    <string name="settingShowTouchInput">Show Touch Input</string>
+    <string name="settingSoundSampleRate">Sound Sample Rate</string>
+
+    <string name="common_google_play_services_unknown_issue">
+        The app %1$s is having problems with Google Play Services. Try again.
+    </string>
+    <string name="s1">Save Image</string>
+    <string name="s2">Allow ads to store images in the image gallery?</string>
+    <string name="s3">Accept</string>
+    <string name="s4">Refuse</string>
+    <string name="s5">Create event at agenRefuseRefuseda</string>
+    <string name="s6">Allow ads to create a calendar event?</string>
+    <string name="s7">test ad</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

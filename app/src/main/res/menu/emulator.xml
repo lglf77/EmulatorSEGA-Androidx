@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="AppCompatResource">
+    <item
+        android:id="@+id/menuHide"
+        android:title="@string/menuHide"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menuActions"
+        android:title="@string/menuActions"
+        android:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/menuLoadROM"
+                android:title="@string/menuLoadRom"
+                android:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/menuLoadState"
+                android:title="@string/menuLoadState"
+                android:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/menuSelectState"
+                android:title="@string/menuSelectState"
+                android:showAsAction="ifRoom">
+                <menu>
+                    <item android:id="@+id/menuState0" android:title="@string/menuState0"/>
+                    <item android:id="@+id/menuState1" android:title="@string/menuState1"/>
+                    <item android:id="@+id/menuState2" android:title="@string/menuState2"/>
+                    <item android:id="@+id/menuState3" android:title="@string/menuState3"/>
+                    <item android:id="@+id/menuState4" android:title="@string/menuState4"/>
+                    <item android:id="@+id/menuState5" android:title="@string/menuState5"/>
+                    <item android:id="@+id/menuState6" android:title="@string/menuState6"/>
+                    <item android:id="@+id/menuState7" android:title="@string/menuState7"/>
+                    <item android:id="@+id/menuState8" android:title="@string/menuState8"/>
+                    <item android:id="@+id/menuState9" android:title="@string/menuState9"/>
+                    <item android:id="@+id/menuState10" android:title="@string/menuState10"/>
+                </menu>
+            </item>
+            <item
+                android:id="@+id/menuSaveState"
+                android:title="@string/menuSaveState"
+                android:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/menuResetGame"
+                android:title="@string/menuResetGame"
+                android:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/menuSettings"
+                android:title="@string/menuSettings"
+                android:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menuExit"
+        android:title="@string/buttonExit"
+        android:showAsAction="ifRoom"/>
+</menu>

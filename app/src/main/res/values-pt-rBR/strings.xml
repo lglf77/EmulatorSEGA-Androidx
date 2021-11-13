@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EmulatorMega-Snes</string>
+    <string name="Copyright"> Copyright 2021 - DroidHits / SEGA GENESIS </string>
+    <string name="app_description"> Sega Megadrive / Emulador Genesis </string>
+    <string name="app_version"> versão 1.0 </string>
+    <string name="buttonExit"> Sair </string>
+    <string name="buttonOk"> OK </string>
+    <string name="buttonRetry"> Tentar novamente </string>
+    <string name="buttonSubmit"> Enviar </string>
+    <string name="fileChooseCurrentDirectory"> Dir atual </string>
+    <string name="fileChooseFileClicked"> Arquivo clicado </string>
+    <string name="fileChooseFileSize"> Tamanho do arquivo </string>
+    <string name="fileChooseFolder"> Diretório </string>
+    <string name="fileChooseNoRomSelected"> Nenhuma ROM selecionada! </string>
+    <string name="fileChooseParentDirectory"> Diretório pai </string>
+    <string name="fileChooseSelected"> Diretório selecionado </string>
+
+    <!-- // Ads - setor -->
+    <string name="firebase_database_url">https://androgens-d5f58.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" />
+    <string name="google_api_key" />
+    <string name="google_app_id" />
+    <string name="google_crash_reporting_api_key" />
+    <string name="google_storage_bucket">androgens-d5f58.appspot.com</string>
+
+    <string name="helpAnswer1">
+        Para emuladores, os jogos são chamados \'ROMs\'. AndroGens pode carregar ROMs Genesis / MegaDrive.
+    </string>
+    <string name="helpAnswer2">
+        Infelizmente, por razões legais, fornecer tais ROMs com o emulador faria
+         o aplicativo se enquadra na violação de direitos autorais.
+    </string>
+    <string name="helpAnswer3">
+        Vários sites na web fornecem os ROMs, como\'coolrom.com\',
+        \'freeroms.com\' or \'emuparadise.me\', para citar alguns desses sites.</string>
+    <string name="helpAnswer4part1">
+         Nos EUA, obter uma ROM pode ser legal apenas se você possuir o material físico original
+         cartucho do jogo.
+     </string>
+    <string name="helpAnswer4part2">
+         Em outros países, obter ROMs da web geralmente não será legal.
+     </string>
+    <string name="helpAnswer4part3">
+         ROMs estão sujeitos às leis de direitos autorais. O download de tais ROMs pode expor você a
+         atividades em seu país.
+     </string>
+    <string name="helpAnswer4part4">
+        A SegaGeneis não pode ser responsabilizada se você baixar ROMs ilegais da web.
+    </string>
+    <string name="helpAnswer5part1">
+        A ROM que você obteve estará localizada no seu dispositivo, provavelmente em
+        a pasta \ Downloads .
+    </string>
+    <string name="helpAnswer5part2">
+        Use o seletor de arquivos do emulador (botão \ Carregar ROM ) para localizá-lo em
+        essa pasta e carregue-a.
+    </string>
+    <string name="helpAnswer6part1">
+        AndroGens lida com ROMs com as seguintes extensões: .md, .bin, .gen.
+    </string>
+    <string name="helpAnswer6part2">
+        O seletor de arquivos de AndroGens também é capaz de navegar por arquivos .zip e
+        carregue ROMs deles.
+    </string>
+    <string name="helpAnswer7part1">
+        Nas configurações, você encontrará uma opção chamada \ Porcentagem de alongamento de áudio.
+        Tente aumentá-lo.
+    </string>
+    <string name="helpAnswer7part2">
+        Embora isso certamente reduza os estalos do som, também diminui a velocidade do som.
+    </string>
+    <string name="helpAnswer7part3">
+         Tente encontrar o melhor ajuste para esta opção para cada ROM que você joga.
+     </string>
+    <string name = "helpBack"> Voltar </string>
+    <string name = "helpQuestion1"> E os jogos? </string>
+    <string name = "helpQuestion2"> Por que ROMs não são fornecidos com o emulador? </string>
+    <string name = "helpQuestion3"> Onde posso obter esses ROMs? </string>
+    <string name = "helpQuestion4"> O download de ROMs da web é legal? </string>
+    <string name = "helpQuestion5">
+        OK então, consegui uma ROM legalmente, como carregá-la no emulador?
+    </string>
+    <string name = "helpQuestion6"> Que tipo de ROMs este emulador suporta? </string>
+    <string name = "helpQuestion7"> Eu recebo estalos de som, como consertar isso? </string>
+    <string name = "helpTitle"> Ajuda do AndroGens </string>
+    <string name = "menuActions"> Ações </string>
+    <string name = "menuHelp"> Ajuda </string>
+    <string name = "menuHide"> Ocultar barra </string>
+    <string name = "menuLoadRom"> Carregar ROM </string>
+    <string name = "menuLoadState"> Carregar estado </string>
+    <string name = "menuResetGame"> Reiniciar jogo </string>
+    <string name = "menuResume"> Retomar </string>
+    <string name = "menuResumeNoRomLoaded"> Nenhuma ROM carregada… </string>
+    <string name = "menuSaveState"> Salvar estado </string>
+    <string name = "menuSelectState"> Selecione o estado </string>
+    <string name = "menuSettings"> Configurações </string>
+    <string name = "menuState0"> Estado 0 </string>
+    <string name = "menuState1"> Estado 1 </string>
+    <string name = "menuState10"> Auto </string>
+    <string name = "menuState2"> Estado 2 </string>
+    <string name = "menuState3"> Estado 3 </string>
+    <string name = "menuState4"> Estado 4 </string>
+    <string name = "menuState5"> Estado 5 </string>
+    <string name = "menuState6"> Estado 6 </string>
+    <string name = "menuState7"> Estado 7 </string>
+    <string name = "menuState8"> Estado 8 </string>
+    <string name = "menuState9"> Estado 9 </string>
+    <string name="messageExternalStorageSummary">
+        Armazenamento externo não montado. Você está no modo de disco?
+    </string>
+    <string name="messageExternalStorageTitle"> Erro </string>
+    <string name="package_name"> com.games.sega.genesis </string>
+    <string name="settingAudioStretch"> Porcentagem de extensão de áudio </string>
+    <string name="settingAutosave"> Autosave / Autoload </string>
+    <string name="settingAutosaveSummary">
+        Usa salvamento de estado para evitar perda de jogo
+    </string>
+    <string name="settingCategoryAudio"> Áudio </string>
+    <string name="settingCategoryDirectories"> Diretórios </string>
+    <string name="settingCategoryEmulation"> Emulação </string>
+    <string name="settingCategoryGraphics"> Gráficos </string>
+    <string name="settingCategoryInput"> Entrada </string>
+    <string name="settingConfigureKeyInput"> Configurar entrada de chave </string>
+    <string name="settingConfigureKeyInputLine">
+        Chave:% 1 $ s | Código:% 2 $ d
+    </string>
+    <string name="settingConfigureKeyInputSummary">
+        Vincule as teclas do teclado à entrada do emulador
+    </string>
+    <string name="settingConfigureTouchAlert0">
+        Arraste os controles para movê-los
+    </string>
+    <string name="settingConfigureTouchAlert1">
+        Toque e segure para entrar no modo de redimensionamento
+    </string>
+    <string name="settingConfigureTouchAlert2">
+        No modo de redimensionamento, arraste as bordas para redimensionar
+    </string>
+    <string name="settingConfigureTouchAlert3"> Salva quando você sai desta tela </string>
+    <string name="settingConfigureTouchAlertTitle"> Configuração de entrada </string>
+    <string name="settingConfigureTouchInput"> Configurar entrada de toque </string>
+    <string name="settingConfigureTouchInputSummary"> Modificar local / tamanho de entrada de toque </string>
+    <string name="settingConfigureTouchLeaveResizeMode">
+        Pressione o botão Voltar do dispositivo ou toque em um controle diferente para sair do modo
+        de redimensionamento
+    </string>
+    <string name="settingEnableAudio"> Ativar áudio </string>
+    <string name="settingFrameskip"> Frameskip </string>
+    <string name="settingGameGenieCantAutoload">
+        Não é possível carregar automaticamente com o Game Genie ativado, ainda será salvo automaticamente </string>
+    <string name="settingGameGenieNotFoundSummary">
+        Game Genie não encontrado, coloque a imagem Game Genie em
+    </string>
+    <string name="settingGameGenieNotFoundTitle"> Game Genie não encontrado </string>
+    <string name="settingHardwareFiltering"> Filtragem de hardware </string>
+    <string name="settingHardwareFilteringLinearInterpolation"> Interpolação linear </string>
+    <string name="settingHardwareFilteringPointFiltering"> Filtragem de pontos </string>
+    <string name="settingMaintainAspectRatio"> Manter proporção do aspecto </string>
+    <string name="settingResetInput"> Redefinir entrada </string>
+    <string name="settingResetInputSummary"> Redefinir para o padrão </string>
+    <string name="settingSelectRomDir"> Selecione ROM Dir </string>
+    <string name="settingSelectRomDirSummary"> diretório ROM: </string>
+    <string name="settingSelectSramDir"> Selecione sram Dir </string>
+    <string name="settingSelectSramDirSummary"> Diretório Sram: </string>
+    <string name="settingSelectStateDir"> Selecione os estados Dir </string>
+    <string name="settingSelectStateDirSummary"> Diretório de estados: </string>
+    <string name="settingSelectTempDir"> Selecionar diretório temporário </string>
+    <string name="settingSelectTempDirSummary"> Diretório temporário: </string>
+    <string name="settingSetButtonNumber"> Tipo de bloco </string>
+    <string name="settingSetButtonNumber3ButtonPad">Teclado de 3 botões</string>
+    <string name="settingSetButtonNumber6ButtonPad">Teclado de 6 botões</string>
+    <string name="settingShowTouchInput">Mostrar entrada de toque</string>
+    <string name="settingSoundSampleRate">Taxa de amostra de som</string>
+
+    <string name="common_google_play_services_unknown_issue">
+        O app %1$s está com problemas com o Google Play Services. Tente novamente.
+    </string>
+    <string name="s1">Salvar imagem</string>
+    <string name="s2">Permitir que os anúncios armazenem imagens na galeria de imagens?</string>
+    <string name="s3">Aceitar</string>
+    <string name="s4">Recusar</string>
+    <string name="s5">Criar evento na agenda</string>
+    <string name="s6">Permitir que os anúncios criem um evento na agenda?</string>
+    <string name="s7">Anúncio de teste</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

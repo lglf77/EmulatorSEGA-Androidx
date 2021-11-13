@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.games.sega.genesis.AdPreference
+        android:id="@+id/adPref1"
+        android:layout="@layout/ad_layout"/>
+
+    <PreferenceCategory
+        android:title="@string/settingCategoryEmulation">
+
+        <ListPreference
+            android:entries="@array/frameSkipValues"
+            android:title="@string/settingFrameskip"
+            android:key="frameSkip"
+            android:defaultValue="0"
+            android:entryValues="@array/frameSkipValues"/>
+
+        <CheckBoxPreference
+            android:title="@string/settingAutosave"
+            android:key="enableAutosave"
+            android:summary="@string/settingAutosaveSummary"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/settingCategoryAudio">
+
+        <CheckBoxPreference
+            android:title="@string/settingEnableAudio"
+            android:key="audio"
+            android:defaultValue="true"/>
+
+        <ListPreference
+            android:entries="@array/listArray"
+            android:title="@string/settingSoundSampleRate"
+            android:key="soundSampleRate"
+            android:defaultValue="44100"
+            android:entryValues="@array/listValues"/>
+
+        <ListPreference
+            android:entries="@array/audioStretchValues"
+            android:title="@string/settingAudioStretch"
+            android:key="audioStretchPercent"
+            android:defaultValue="0"
+            android:entryValues="@array/audioStretchValues"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/settingCategoryGraphics">
+
+        <CheckBoxPreference
+            android:title="@string/settingMaintainAspectRatio"
+            android:key="aspectRatio"
+            android:defaultValue="true"/>
+        <ListPreference
+            android:entries="@array/hardwareFilterArray"
+            android:title="@string/settingHardwareFiltering"
+            android:key="graphicsFilter"
+            android:defaultValue="true"
+            android:entryValues="@array/hardwareFilterValues"/>
+
+    </PreferenceCategory>
+
+    <com.games.sega.genesis.AdPreference
+        android:id="@+id/adPref2"
+        android:layout="@layout/ad_layout"/>
+
+    <PreferenceCategory android:title="@string/settingCategoryInput">
+
+        <ListPreference
+            android:entries="@array/buttonNumberArray"
+            android:title="@string/settingSetButtonNumber"
+            android:key="prefButtonNumber"
+            android:defaultValue="6"
+            android:entryValues="@array/buttonNumberValues"/>
+
+        <Preference
+            android:title="@string/settingConfigureTouchInput"
+            android:key="bntInputPref"
+            android:summary="@string/settingConfigureTouchInputSummary"/>
+
+        <CheckBoxPreference
+            android:title="@string/settingShowTouchInput"
+            android:key="prefShowTouchInput"
+            android:defaultValue="true"/>
+
+        <Preference
+            android:title="@string/settingConfigureKeyInput"
+            android:key="bntCustomKeys"
+            android:summary="@string/settingConfigureKeyInputSummary"/>
+
+        <Preference
+            android:title="@string/settingResetInput"
+            android:key="bntDefaultEmpty"
+            android:summary="@string/settingResetInputSummary"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/settingCategoryDirectories">
+
+        <Preference
+            android:title="@string/settingSelectRomDir"
+            android:key="prefRomDir"
+            android:summary="@string/settingSelectRomDirSummary"/>
+
+        <Preference
+            android:title="@string/settingSelectStateDir"
+            android:key="prefStatesDir"
+            android:summary="@string/settingSelectStateDirSummary"/>
+
+        <Preference
+            android:title="@string/settingSelectSramDir"
+            android:key="prefSramDir"
+            android:summary="@string/settingSelectSramDirSummary"/>
+
+        <Preference
+            android:title="@string/settingSelectTempDir"
+            android:key="prefTempDir"
+            android:summary="@string/settingSelectTempDirSummary" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
